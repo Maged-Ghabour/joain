@@ -1,5 +1,13 @@
 <?php get_header(); ?>
 
+<?php
+// Check if the page is built with Elementor
+if ( class_exists( '\\Elementor\\Plugin' ) && \Elementor\Plugin::$instance->db->is_built_with_elementor( get_the_ID() ) ) :
+    while ( have_posts() ) : the_post();
+        the_content();
+    endwhile;
+else :
+?>
 <!-- ===== PAGE HEADER ===== -->
 <div class="page-header">
   <div class="container">
@@ -22,5 +30,6 @@
         </div>
     </div>
 </main>
+<?php endif; ?>
 
 <?php get_footer(); ?>
