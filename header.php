@@ -29,15 +29,17 @@
             'theme_location' => 'primary',
             'container'      => false,
             'fallback_cb'    => false,
-            'items_wrap'     => '%3$s', // Removes the <ul> wrapper to match original structure
+            'menu_class'     => 'navbar__menu', // This adds the class to the <ul>
         ) );
         ?>
         <!-- Fallback if menu not set -->
         <?php if ( ! has_nav_menu( 'primary' ) ) : ?>
-            <a href="#" class="active">الرئيسية</a>
-            <a href="#">من نحن</a>
-            <a href="#">تواصل معنا</a>
-            <a href="#">المدونة</a>
+          <ul class="navbar__menu">
+            <li><a href="#" class="active">الرئيسية</a></li>
+            <li><a href="#">من نحن</a></li>
+            <li><a href="#">تواصل معنا</a></li>
+            <li><a href="#">المدونة</a></li>
+          </ul>
         <?php endif; ?>
       </nav>
       <div class="navbar__actions" id="navActions">
