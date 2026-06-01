@@ -2262,3 +2262,150 @@ background-color: #ffffff;
 .blog-card:hover .blog-card__title {
   color: var(--primary);
 }
+
+/* =========================================
+   SINGLE POST / PAGE STYLES & BOOKING FORM 
+   ========================================= */
+
+/* Booking Form Fallback */
+.custom-booking-form {
+  background: #fff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+.custom-booking-form .form-group {
+  margin-bottom: 20px;
+}
+.custom-booking-form input,
+.custom-booking-form select {
+  width: 100%;
+  padding: 15px 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 16px;
+  background: #fdfdfd;
+  color: #333;
+  outline: none;
+  transition: all 0.3s ease;
+}
+.custom-booking-form input:focus,
+.custom-booking-form select:focus {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(var(--primary-rgb), 0.1);
+}
+.custom-booking-form .btn-submit {
+  width: 100%;
+  padding: 16px;
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+.custom-booking-form .btn-submit:hover {
+  background: var(--secondary);
+  transform: translateY(-2px);
+}
+
+/* Single Page / Post Header */
+.page-header {
+  background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+  padding: 80px 0;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 50px;
+  border-radius: 0 0 30px 30px;
+}
+.page-header .page-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.page-header .post-meta {
+  font-size: 14px;
+  opacity: 0.9;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* Article Container */
+.article-main {
+  padding-bottom: 80px;
+}
+.article-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.article-content {
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.04);
+  overflow: hidden;
+}
+.article-thumbnail img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  max-height: 450px;
+  border-bottom: 1px solid #eee;
+}
+.article-body {
+  padding: 40px;
+  line-height: 1.8;
+  font-size: 18px;
+  color: #444;
+}
+.article-body h2, 
+.article-body h3, 
+.article-body h4 {
+  color: var(--primary);
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+.article-body h2 {
+  font-size: 28px;
+}
+.article-body h3 {
+  font-size: 24px;
+}
+.article-body p {
+  margin-bottom: 20px;
+}
+.article-body ul, 
+.article-body ol {
+  margin-bottom: 20px;
+  padding-right: 20px;
+}
+.article-body li {
+  margin-bottom: 10px;
+}
+.article-body img {
+  max-width: 100%;
+  border-radius: 12px;
+  margin: 20px 0;
+}
+.article-body a {
+  color: var(--secondary);
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .page-header {
+    padding: 50px 0;
+  }
+  .page-header .page-title {
+    font-size: 28px;
+  }
+  .article-body {
+    padding: 25px;
+    font-size: 16px;
+  }
+}

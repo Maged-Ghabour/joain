@@ -272,9 +272,31 @@
     </div>
     <div class="booking__inner">
       <div class="booking__form fade-up">
-        <?php echo do_shortcode('[contact-form-7 id="booking-form" title="Booking Form"]'); ?>
-        <!-- Note: Ensure you create a Contact Form 7 or WPForms and replace the shortcode above. Fallback to basic HTML if needed. -->
-        <p class="form-notice">Please install Contact Form 7 or a similar plugin and configure your form here.</p>
+        <?php 
+        // If you have a shortcode, uncomment the line below and remove the HTML form
+        // echo do_shortcode('[contact-form-7 id="booking-form" title="Booking Form"]'); 
+        ?>
+        <form class="custom-booking-form" action="#" method="post">
+          <div class="form-group">
+            <input type="text" name="full_name" placeholder="الاسم الكامل" required>
+          </div>
+          <div class="form-group">
+            <input type="tel" name="phone" placeholder="رقم الجوال" required>
+          </div>
+          <div class="form-group">
+            <select name="service" required>
+              <option value="" disabled selected>اختر الخدمة المطلوبة</option>
+              <option value="تقويم">تقويم الأسنان</option>
+              <option value="عصب">علاج العصب</option>
+              <option value="تجميل">حشوات تجميلية</option>
+              <option value="تركيبات">تركيبات الأسنان</option>
+              <option value="أخرى">أخرى</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <button type="submit" class="btn-submit">تأكيد الحجز</button>
+          </div>
+        </form>
       </div>
       <div class="booking__map fade-up fade-up-delay-1">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3710.2!2d46.7!3d24.7!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjTCsDQyJzAwLjAiTiA0NsKwNDInMDAuMCJF!5e0!3m2!1sar!2ssa!4v1" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
