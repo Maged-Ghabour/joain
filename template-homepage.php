@@ -277,34 +277,43 @@ get_header();
     </div>
     <div class="booking__inner">
       <div class="booking__form fade-up">
-        <?php 
-        // If you have a shortcode, uncomment the line below and remove the HTML form
-        // echo do_shortcode('[contact-form-7 id="booking-form" title="Booking Form"]'); 
-        ?>
-        <form class="custom-booking-form" action="#" method="post">
-          <div class="form-group">
-            <input type="text" name="full_name" placeholder="الاسم الكامل" required>
+        <form action="#" method="post">
+          <div class="form-row">
+            <div class="form-group">
+              <label>الاسم الكامل</label>
+              <input type="text" name="full_name" placeholder="أدخل اسمك الكريم" required>
+            </div>
+            <div class="form-group">
+              <label>رقم الجوال</label>
+              <input type="tel" name="phone" placeholder="05xxxxxxxx" required>
+            </div>
           </div>
-          <div class="form-group">
-            <input type="tel" name="phone" placeholder="رقم الجوال" required>
+          <div class="form-row">
+            <div class="form-group">
+              <label>الخدمة المطلوبة</label>
+              <select name="service" required>
+                <option value="" disabled selected>اختر الخدمة...</option>
+                <option value="تقويم">تقويم الأسنان</option>
+                <option value="عصب">علاج العصب</option>
+                <option value="تجميل">حشوات تجميلية</option>
+                <option value="تركيبات">تركيبات الأسنان</option>
+                <option value="أخرى">أخرى</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>التاريخ المفضل (اختياري)</label>
+              <input type="date" name="date">
+            </div>
           </div>
-          <div class="form-group">
-            <select name="service" required>
-              <option value="" disabled selected>اختر الخدمة المطلوبة</option>
-              <option value="تقويم">تقويم الأسنان</option>
-              <option value="عصب">علاج العصب</option>
-              <option value="تجميل">حشوات تجميلية</option>
-              <option value="تركيبات">تركيبات الأسنان</option>
-              <option value="أخرى">أخرى</option>
-            </select>
-          </div>
-          <div class="form-group">
-            <button type="submit" class="btn-submit">تأكيد الحجز</button>
-          </div>
+          <button type="submit" class="btn btn--primary btn--full booking__submit-btn" style="margin-top: 10px;">تأكيد الحجز</button>
         </form>
       </div>
       <div class="booking__map fade-up fade-up-delay-1">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3710.2!2d46.7!3d24.7!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjTCsDQyJzAwLjAiTiA0NsKwNDInMDAuMCJF!5e0!3m2!1sar!2ssa!4v1" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        
+        <div class="booking__map-cutout">
+          <a href="https://maps.google.com" target="_blank" class="btn btn--primary">احصل على الاتجاهات</a>
+        </div>
       </div>
     </div>
   </div>

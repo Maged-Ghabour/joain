@@ -17,7 +17,7 @@
 <!-- ===== PAGE CONTENT ===== -->
 <main class="site-main article-main">
   <div class="container article-container">
-    <div class="article-content fade-up">
+    <div class="article-content">
         <?php if(has_post_thumbnail()): ?>
           <div class="article-thumbnail">
             <?php the_post_thumbnail('large'); ?>
