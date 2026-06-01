@@ -5,7 +5,7 @@ Theme URI: #
 Author: Antigravity
 Author URI: #
 Description: A custom WordPress theme for Joan
-Version: 1.6
+Version: 1.8
 Text Domain: joan
 */
 
@@ -2195,6 +2195,13 @@ background-color: #ffffff;
     align-items: flex-start;
     gap: 16px;
     padding-top: 16px;
+  }
+
+  .navbar__menu {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    gap: 16px;
   }
 
   .navbar.is-open .navbar__links,

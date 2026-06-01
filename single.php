@@ -24,7 +24,7 @@
           </div>
         <?php endif; ?>
         
-        <div class="article-body">
+        <div class="article-body entry-content">
             <?php
             if ( have_posts() ) :
                 while ( have_posts() ) : the_post();

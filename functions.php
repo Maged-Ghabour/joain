@@ -37,6 +37,15 @@ function joan_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'joan_scripts' );
 
+// Add defer attribute to script
+function joan_defer_scripts( $tag, $handle, $src ) {
+    if ( 'joan-script' === $handle ) {
+        return '<script src="' . esc_url( $src ) . '" defer="defer"></script>' . "\n";
+    }
+    return $tag;
+}
+add_filter( 'script_loader_tag', 'joan_defer_scripts', 10, 3 );
+
 /**
  * Customizer additions.
  */

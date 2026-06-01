@@ -37,7 +37,7 @@ get_header();
           </div>
         </div>
         <div class="about-content__image" style="position: relative;">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/about1.png" alt="عيادات جوان" style="border-radius: 24px; width: 100%; box-shadow: 0 20px 40px rgba(0,0,0,0.1);">
+          <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/about1.png" alt="عيادات جوان" style="border-radius: 24px; width: 100%; box-shadow: 0 20px 40px rgba(0,0,0,0.1);">
           <!-- Decorative element -->
           <div style="position: absolute; bottom: -30px; right: -30px; background: var(--primary); color: #fff; padding: 30px; border-radius: 20px; box-shadow: 0 10px 30px rgba(33,104,148,0.3);">
             <h3 style="font-size: 40px; margin-bottom: 5px;">+10</h3>

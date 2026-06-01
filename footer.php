@@ -4,7 +4,7 @@
 
       <!-- Col 1: Logo -->
       <div class="footer__col footer__brand">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/footerlogo.png" alt="<?php bloginfo('name'); ?>" class="footer__logo" />
+        <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/footerlogo.png" alt="<?php bloginfo('name'); ?>" class="footer__logo" />
         <p class="footer__desc">عيادة جوان لطب الأسنان توفر لك تجربة مريحة للعناية بأسنانك مع أفضل الكوادر الطبية.</p>
       </div>
 

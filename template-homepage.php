@@ -46,7 +46,7 @@ get_header();
     <div class="section-header split-header">
       <div class="section-header__right">
         <div class="section-header__label">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/headerIcon.png" alt="icon" />
+          <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/headerIcon.png" alt="icon" />
           <span>من نحن</span>
         </div>
         <h2 class="section-header__title">
@@ -88,7 +88,7 @@ get_header();
     <div class="section-header services-header">
       <div class="section-header__right">
         <div class="section-header__label">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/headerIcon.png" alt="icon" />
+          <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/headerIcon.png" alt="icon" />
           <span>خدماتنا</span>
         </div>
         <h2 class="section-header__title">
@@ -107,7 +107,7 @@ get_header();
           <p>حلول متقدمة لتصحيح اصطفاف الأسنان وتحسين الابتسامة بثقة</p>
         </div>
         <div class="service-card__img-wrapper">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/serv1.png" alt="خدمة">
+          <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/serv1.png" alt="خدمة">
         </div>
       </div>
       <div class="service-card fade-up fade-up-delay-3">
@@ -116,7 +116,7 @@ get_header();
           <p>علاج دقيق باستخدام تقنيات حديثة لتخفيف الألم وإنقاذ السن.</p>
         </div>
         <div class="service-card__img-wrapper">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/serv2.png" alt="خدمة">
+          <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/serv2.png" alt="خدمة">
         </div>
       </div>
       <div class="service-card fade-up">
@@ -125,7 +125,7 @@ get_header();
           <p>نساعدك تكتشف المشاكل مبكرًا مع تنظيف احترافي يحافظ على صحة اللثة والأسنان</p>
         </div>
         <div class="service-card__img-wrapper">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/serv3.png" alt="خدمة">
+          <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/serv3.png" alt="خدمة">
         </div>
       </div>
       <div class="service-card fade-up fade-up-delay-1">
@@ -134,7 +134,7 @@ get_header();
           <p>نستخدم مواد عالية الجودة لإعادة بناء الأسنان بشكل متناسق.</p>
         </div>
         <div class="service-card__img-wrapper">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/serv4.png" alt="خدمة">
+          <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/serv4.png" alt="خدمة">
         </div>
       </div>
     </div>
@@ -147,7 +147,7 @@ get_header();
     <div class="section-header split-header">
       <div class="section-header__right">
         <div class="section-header__label">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/headerIcon.png" alt="icon" />
+          <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/headerIcon.png" alt="icon" />
           <span>ليش تختارنا</span>
         </div>
         <h2 class="section-header__title">
@@ -160,22 +160,22 @@ get_header();
     </div>
     <div class="why-us__grid">
       <div class="why-card fade-up fade-up-delay-2">
-        <div class="why-card__icon"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon1.png" alt="icon"></div>
+        <div class="why-card__icon"><img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/icon1.png" alt="icon"></div>
         <h3>فريق طبي متخصص</h3>
         <p>نخبة من الأطباء بخبرة عالية يضمنون لك علاج دقيق ونتائج موثوقة</p>
       </div>
       <div class="why-card fade-up fade-up-delay-3">
-        <div class="why-card__icon"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon2.png" alt="icon"></div>
+        <div class="why-card__icon"><img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/icon2.png" alt="icon"></div>
         <h3>تجربة مريحة</h3>
         <p>نحرص على تقليل التوتر وتوفير بيئة هادئة لزيارة بدون قلق</p>
       </div>
       <div class="why-card fade-up">
-        <div class="why-card__icon"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon3.png" alt="icon"></div>
+        <div class="why-card__icon"><img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/icon3.png" alt="icon"></div>
         <h3>تقنيات حديثة</h3>
         <p>نستخدم أحدث الأجهزة لتقديم علاج أسرع وأكثر دقة لكل خدماتنا</p>
       </div>
       <div class="why-card fade-up fade-up-delay-1">
-        <div class="why-card__icon"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon4.png" alt="icon"></div>
+        <div class="why-card__icon"><img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/icon4.png" alt="icon"></div>
         <h3>سهولة الحجز</h3>
         <p>احجز موعدك بسرعة عبر واتساب أو الاتصال بخطوات بسيطة</p>
       </div>
@@ -187,7 +187,7 @@ get_header();
 <section class="banner-section section-pad">
   <div class="container">
     <div class="banner-box">
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/banner2.png" alt="Banner">
+      <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/banner2.png" alt="Banner">
     </div>
   </div>
 </section>
@@ -198,7 +198,7 @@ get_header();
     <div class="section-header services-header">
       <div class="section-header__right">
         <div class="section-header__label">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/headerIcon.png" alt="icon" />
+          <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/headerIcon.png" alt="icon" />
           <span>شاهد الفرق قبل وبعد العلاج</span>
         </div>
         <h2 class="section-header__title">شاهد الفرق قبل وبعد العلاج</h2>
@@ -206,10 +206,10 @@ get_header();
       </div>
     </div>
     <div class="before-after__grid">
-      <div class="before-after__item"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/b&a1.png" alt="Before After 1"></div>
-      <div class="before-after__item"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/b&a2.png" alt="Before After 2"></div>
-      <div class="before-after__item"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/b&a3.png" alt="Before After 3"></div>
-      <div class="before-after__item"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/b&a4.png" alt="Before After 4"></div>
+      <div class="before-after__item"><img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/b&a1.png" alt="Before After 1"></div>
+      <div class="before-after__item"><img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/b&a2.png" alt="Before After 2"></div>
+      <div class="before-after__item"><img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/b&a3.png" alt="Before After 3"></div>
+      <div class="before-after__item"><img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/b&a4.png" alt="Before After 4"></div>
     </div>
   </div>
 </section>
@@ -220,7 +220,7 @@ get_header();
     <div class="section-header testimonials-header">
       <div class="section-header__right">
         <div class="section-header__label">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/headerIcon.png" alt="icon" />
+          <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/headerIcon.png" alt="icon" />
           <span>المدونة</span>
         </div>
         <h2 class="section-header__title">أحدث المقالات</h2>
@@ -237,7 +237,7 @@ get_header();
           <?php if(has_post_thumbnail()) {
               the_post_thumbnail('medium');
           } else { ?>
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/blog1.png" alt="<?php the_title(); ?>">
+              <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/blog1.png" alt="<?php the_title(); ?>">
           <?php } ?>
         </div>
         <div class="blog-card__content">
@@ -266,7 +266,7 @@ get_header();
     <div class="section-header section-header--split">
       <div class="section-header__right">
         <div class="section-header__label">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/headerIcon.png" alt="icon" />
+          <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/headerIcon.png" alt="icon" />
           <span>احجز موعدك</span>
         </div>
         <h2 class="section-header__title">املأ بياناتك واحجز زيارتك بسهولة</h2>
