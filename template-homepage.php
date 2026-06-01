@@ -1,4 +1,9 @@
-<?php get_header(); ?>
+<?php 
+/*
+Template Name: تصميم الرئيسية الخاص بالثيم
+*/
+get_header(); 
+?>
 
 <!-- ===== HERO SECTION ===== -->
 <section class="hero" id="hero">
